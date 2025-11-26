@@ -2,10 +2,7 @@
 
 ## 폴더 구조
 ```
-Hw_7/
-├─ read.md                 # 패키지 개요 및 사용법
-├─ README.md               # 기본 프로젝트 설명
-└─ statkit/                # 통계 기능 모듈 패키지
+statkit/                # 통계 기능 모듈 패키지
    ├─ __init__.py          # 공개 API를 한글 함수 이름으로 정리
    ├─ descriptive.py       # 평균, 중앙값, 분산 등 기술 통계 함수
    └─ inference.py         # 신뢰구간 등 간단한 추론 통계 함수
